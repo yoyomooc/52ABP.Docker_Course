@@ -3,7 +3,7 @@
 学习之前建议您通读下本页文档。
 
 
-[角落的开发工具集之Vs（Visual Studio)2017插件推荐](/src/VisualStudio/VisualStudio_Tools_recommend .Md)
+[角落的开发工具集之Vs（Visual Studio)2017插件推荐](/src/VisualStudio/VisualStudio_Tools_recommend.Md)
 
 ## 文章目录：
 
