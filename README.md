@@ -1,5 +1,7 @@
 # 52ABP.Docker_Course
 配合52ABP实战课程系列的Docker教程信息。
+学习之前建议您通读下本页文档。
+
 
 
 # 视频教程
@@ -12,6 +14,15 @@
 腾讯课堂： https://52abp.ke.qq.com/
 
 ps: 三个地方的课程都是一致的，但是网易和腾讯课堂会因为审核周期的问题，导致上架会比较缓慢。请知悉。
+
+
+# 环境的准备和配置
+
+- Xshell Xftp (安全终端模拟软件)
+- Ubuntu 16.04 64位 服务器一台（可自建虚拟机）
+- Visual Studio Code
+- Xshell Xftp的下载地址：http://onpmq0amb.bkt.clouddn.com/xshell+xftp.rar
+
 
 
 # 整体介绍
