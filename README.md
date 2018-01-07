@@ -2,6 +2,9 @@
 配合52ABP实战课程系列的Docker教程信息。
 学习之前建议您通读下本页文档。
 
+# 讲师介绍
+
+![梁桐铭.png](http://upload-images.jianshu.io/upload_images/1979022-0b299b33aaea684f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 视频教程
@@ -58,31 +61,24 @@ ps: 三个地方的课程都是一致的，但是网易和腾讯课堂会因为�
 ![标题.png](http://upload-images.jianshu.io/upload_images/1979022-0e21dcaa0b24048f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![目录.png](http://upload-images.jianshu.io/upload_images/1979022-8626601e41a5a489.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![定位](http://upload-images.jianshu.io/upload_images/1979022-a60e7546444325ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-5fe4469c7caa7ae4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-000a9cdf68782a35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-51e6b689bef46e30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-c633b1b84e152a06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-81ff7d4b33ff35c5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-cc8a79dc42ceca95.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-92176181edfe309f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-d421e27bc5fb921d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-81733f0d0471cf58.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-a62814a5f9aaa002.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+ 
 更多内容请下载课件~
 地址地址：https://files.cnblogs.com/files/wer-ltm/Docker%26Ubuntu%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%AE%9E%E6%88%98%E8%AF%BE%E7%A8%8BV1.0.pdf
 
-
-**相关文章和课程**
+# 相关课程
+ 
 
 最近我录制的.net core 入门已经发布有兴趣的可以去了解。
 
 [Asp.NET Core2.0 项目实战入门视频课程_完整版](https://mp.weixin.qq.com/s?__biz=MzI1OTQzNTc0MQ==&mid=2247483729&idx=1&sn=d449e05bfb88f5b32bfbfcbe857a887e&chksm=ea79bce3dd0e35f53c7b8a3fc8acfd11302c8da60aeafda882047b048efede26ec01dd428701#rd)
 
+# 联系我们
+
+
 **欢迎关注角落的白板报**
+ 
 
-![image.png](http://upload-images.jianshu.io/upload_images/1979022-13f7c1fe1b0e8e54.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![联系我们](http://upload-images.jianshu.io/upload_images/1979022-a6ae2876aeac3cab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
  
 
