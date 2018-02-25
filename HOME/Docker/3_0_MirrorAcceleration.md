@@ -1,0 +1,90 @@
+# 镜像加速站点
+ 
+ 
+
+DaoCloud加速器地址： http://get.daocloud.io/
+
+镜像加速地址：
+https://www.daocloud.io/mirror#accelerator-doc
+Docker官方加速地址：
+https://www.docker-cn.com/registry-mirror
+
+```
+curl -sSL https://get.daocloud.io/daotools/set_mirror.sh | sh -s http://eb6b43a6.m.daocloud.io
+```
+![image.png](.attachments/image-80e5838f-612f-4927-91f9-c617b99e76bc.png)
+这里执行完毕后，需要重启下Docker服务。
+```
+sudo systemctl restart docker.service
+```
+
+ 
+
+
+# WordPress PHP下，全世界流行的博客站点
+
+```
+docker run --name ltm_db --env MYSQL_ROOT_PASSWORD=123 -d mariadb
+
+docker run --name ltm_blog --link ltm_db:mysql -p 8080:80 -d wordpress
+
+```
+
+
+# 搭建GitLab服务
+
+docker-gitlab 基于sameersbn/docker-gitlab  
+项目地址：https://github.com/sameersbn/docker-gitlab
+
+必备环境：
+- postgresql
+- redis 
+- gitlab
+
+启动 postgresql
+```
+ docker run --name gitlab-postgresql -d \
+    --env 'DB_NAME=gitlabhq_production' \
+    --env 'DB_USER=gitlab' --env 'DB_PASS=password' \
+    --env 'DB_EXTENSION=pg_trgm' \
+    --volume /srv/docker/gitlab/postgresql:/var/lib/postgresql \
+    sameersbn/postgresql:9.6-2
+  
+```
+启动 redis
+```
+docker run --name gitlab-redis -d sameersbn/redis:latest
+```
+启动gitlab
+```
+docker run --name gitlab -d \
+    --link gitlab-postgresql:postgresql --link gitlab-redis:redisio \
+    -p 10022:22 -p 10080:80 \
+    --env 'GITLAB_PORT=10080' --env 'GITLAB_SSH_PORT=10022' \
+    --env 'GITLAB_SECRETS_DB_KEY_BASE=long-and-random-alpha-numeric-string' \
+    --env 'GITLAB_SECRETS_SECRET_KEY_BASE=long-and-random-alpha-numeric-string' \
+    --env 'GITLAB_SECRETS_OTP_KEY_BASE=long-and-random-alpha-numeric-string' \
+    --volume /srv/docker/gitlab/gitlab:/home/git/data \
+    sameersbn/gitlab:10.3.2
+```
+
+## 项目管理软件
+ redmine
+```
+ docker run --name=postgresql-redmine -d \
+  --env='DB_NAME=redmine_production' \
+  --env='DB_USER=redmine' --env='DB_PASS=password' \
+  --volume=/srv/docker/redmine/postgresql:/var/lib/postgresql \
+  sameersbn/postgresql:9.6-2
+```
+
+```
+docker run --name=redmine -d \
+  --link=postgresql-redmine:postgresql -p=10083:80 \
+  --env='REDMINE_PORT=10083' \
+  --volume=/srv/docker/redmine/redmine:/home/redmine/data \
+  sameersbn/redmine:3.4.2
+```
+
+
+

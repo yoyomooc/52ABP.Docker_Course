@@ -1,0 +1,30 @@
+# Docker 常用命令
+```
+
+## 容器操作命令
+查看所有容器
+docker ps -as 
+查看运行中的容器
+docker ps  
+
+启动指定容器
+docker start 容器ID 
+
+停止指定容器
+docker stop 容器ID 
+
+停止所有的容器
+docker stop $(docker ps -a -q)
+强制结束（杀进程）
+docker kill $(docker ps -a -q)
+删除所有的容器
+docker rm $(docker ps -a -q)
+
+## 镜像操作命令
+
+删除所有的镜像
+docker rmi $(docker images -q)
+
+
+
+```
