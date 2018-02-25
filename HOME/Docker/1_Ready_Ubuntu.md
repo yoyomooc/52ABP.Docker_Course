@@ -8,7 +8,7 @@ ss -lnt
 
 ```
  是否有22端口打开
-![image.png](.attachments/image-597aef9d-6f8a-460e-8189-3ac215be7160.png)
+![image.png](/.attachments/image-597aef9d-6f8a-460e-8189-3ac215be7160.png)
 
 如果没有的话，执行
 ```
