@@ -7,13 +7,13 @@
  
 ## Docker目录：
 
-[0.0Ubuntu服务器准备一台](/HOME/Docker/1_Ready_Ubuntu)
+[0.0Ubuntu服务器准备一台](/HOME/Docker/1_Ready_Ubuntu.md)
  
 [1.0安装Docker](/HOME/Docker/2_Install_Docker.md)
  
-[2.0快速体验下Docker-搭建博客](/HOME/Docker/3_0_MirrorAcceleration)
+[2.0快速体验下Docker-搭建博客](/HOME/Docker/3_0_MirrorAcceleration.md)
 
-[2.1Docker常用命令](/HOME/Docker/3_1Docker_Common_Commands)
+[2.1Docker常用命令](/HOME/Docker/3_1Docker_Common_Commands.md)
  
 
 # 讲师介绍
@@ -23,8 +23,7 @@
 
 # 视频教程
 配合视频教程使用最佳，视频教程地址：
-
-百度传课： https://chuanke.baidu.com/s3735870.html
+ 
 
 网易云课堂：http://study.163.com/provider/400000000309007/index.htm
 
