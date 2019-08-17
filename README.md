@@ -9,7 +9,7 @@
 
 [0.0Ubuntu服务器准备一台](/HOME/Docker/1_Ready_Ubuntu)
  
-[1.0安装Docker](/HOME/Docker/2_Install_Docker)
+[1.0安装Docker](/HOME/Docker/2_Install_Docker.md)
  
 [2.0快速体验下Docker-搭建博客](/HOME/Docker/3_0_MirrorAcceleration)
 
